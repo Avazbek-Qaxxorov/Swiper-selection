@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="./cs/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+ <div class="swiper-main_wrapper">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-cards">
+              <div class="swiper-img">
+                <img src="./images/Mercedes-AMG_One.jpg" alt="Mercedes-AMG_One">
+              </div> 
+              <div class="swiper-text">
+                <h2>
+                  Mercedes AMG
+                </h2>
+                <span>Poyga Mashinasi</span>  <br><br>
+                <a href="https://www.mercedes-amg.com/en/home.html">$1,000,000</a>
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-cards">
+              <div class="swiper-img">
+                <img src="./images/2019_Porsche_911_Carrera.jpg" alt="Porshe-911">
+              </div> 
+              <div class="swiper-text">
+                <h2>
+                  Porshe-911
+                </h2>
+                <span>Ommabop Mashina</span>  <br><br>
+                <a href="https://www.mercedes-amg.com/en/home.html">$1,000,000</a>
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-cards">
+              <div class="swiper-img">
+                <img src="./images/mersades-amg-gt.jpg" alt="mersades-amg-gt">
+              </div> 
+              <div class="swiper-text">
+                <h2>
+                  Mercedes AMG Gt
+                </h2>
+                <span>Poyga Mashinasi</span>  <br><br>
+                <a href="https://www.mercedes-amg.com/en/home.html">$1,000,000</a>
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-cards">
+              <div class="swiper-img">
+                <img src="./images/BMW_M5_F90.jpg" alt="BMW_M5_F90">
+              </div> 
+              <div class="swiper-text">
+                <h2>
+                  BMW_M5_F90
+                </h2>
+                <span>Poyga Mashinasi</span>  <br><br>
+                <a href="https://www.mercedes-amg.com/en/home.html">$200,000</a>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+ </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      navigation: {
+
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        
+      },
+    });
+  </script>
+</body>
+
+</html>
